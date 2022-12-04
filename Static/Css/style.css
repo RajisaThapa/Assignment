@@ -1,0 +1,435 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&family=Poppins:wght@600&display=swap');
+
+:root {
+    --primary-color: #86BD92;
+    --seconday:#012D10; 
+    --button:#065B23;
+    --icon: #065B23;
+    
+
+  
+  }
+h1 {
+    color: #444;
+   
+}
+.body{
+    display: flex;
+
+}
+thead {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    color: #666;
+}
+
+#leftbar {
+    height: 100% !important;
+    position: fixed;
+    width: 25%;
+    margin-top: -1%;
+    box-shadow: 2px 0 5px 5px rgb(0 0 0 / 5%);
+    padding: 0;
+    margin-left: -1%;
+}
+#midbar {
+    height: 100% !important;
+    position: fixed;
+    width: 100%;
+    margin-top: -1%;
+    padding: 0;
+    margin-left: 25.3%;
+}
+
+
+.footer {
+
+    color: var(--primary-color);
+}
+
+.text-muted {
+    color: #adb5bd !important;
+}
+.nav{
+    display: flex !important;
+   
+}
+.nav :active{
+    margin-right: 2px solid var(--seconday)
+    
+}
+.nav a{
+    text-decoration: none;
+    font-size: 26px;
+    color: var(--primary-color);
+}
+.nav li:active{
+    border-right: 2px solid var(--primary-color) !important;
+}
+.nav i{
+    font-size: 26px;
+    margin: 20px;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.rec4 ul{
+padding: 20px;
+}
+
+.rec2 {
+    height: 4.5em;
+    width: 90%;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgb(0 0 0 / 20%);
+    margin-left: 5%;
+    margin-top: -30px;
+    position: relative;
+    z-index: 1;
+
+}
+.rec4 {
+    
+    width: 90%;
+    background-color: white;
+    border-radius: 4px;
+  
+    margin-left: 5%;
+margin-top: 20%;
+
+    position: relative;
+    
+
+}
+
+.rectangle {
+    margin-top: -18px;
+    height: 4.5em;
+    background-color: #86BD92;
+    position: relative;
+    z-index: -0.2;
+}
+
+.rec1 {
+    height: 4.5em;
+    width: 90%;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgb(0 0 0 / 20%);
+    margin-left: 5%;
+    margin-top: 20px;
+    position: relative;
+    z-index: 1;
+}
+.details{
+    justify-content: flex-start;
+
+}
+.course {
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgb(0 0 0 / 20%);
+  height:7rem;
+  margin-top: 20px;
+  padding: 10px;
+    
+}
+.course h1{
+    font-size: 20px !important;
+    color: var(--seconday);
+}
+.cour{
+    margin-top: 7%; 
+}
+.cour h1{
+    font-size: 28px;
+    font-weight: 300 !important;
+}
+.courses{
+    
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+.today {
+    
+    display: flex;
+    margin-top: 2%;
+    justify-content: space-evenly;
+}
+
+.today i {
+    margin-left: 14px;
+    margin-top: 12px;
+}
+
+.today h1 {
+    font-size: 10px;
+    color: var(--seconday);
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 25px;
+    /* margin-left: 5px; */
+    /* padding:3px; */
+}
+.progress h1 {
+    font-size: 28px;
+    font-weight: 300 !important;
+ 
+    margin-top: 25px;
+    /* margin-left: 5px; */
+    /* padding:3px; */
+}
+
+.today h2 {
+    font-size: 20px;
+    text-align: center;
+    color: var(--seconday);
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: -4px;
+    /* margin-left: 5px; */
+    /* padding:3px; */
+}
+
+.rperson{
+    height: 95px;
+    width: 55%;
+    background-color: var(--primary-color);
+    border-radius: 0px 0px 8px 8px;
+    position: fixed;
+    z-index: -1;
+    box-shadow: 2px 0 5px 5px rgb(0 0 0 / 5%);
+}
+.detail h1{
+    font-size: 15px;
+    margin-left: 2% !important;
+    margin-top: 4% !important;
+   
+} 
+.dashboard {
+
+    width: 55%;
+    margin-top: 2%;
+  }
+  
+ 
+  .card {
+    margin: auto;
+    background-color: white;
+    
+    box-shadow: 2px 0 5px 5px rgb(0 0 0 / 5%);
+    padding: 4vh 0;
+    border-top: 3px solid var(--primary-color);
+    border-bottom: 3px solid var(--primary-color);
+    border-left: none;
+    border-right: none
+}
+
+@media(max-width:768px) {
+    .card {
+        width: 90%
+    }
+}
+
+.title {
+    color: var(--seconday);
+    font-weight: 600;
+    margin-bottom: 2vh;
+    padding: 0 8%;
+    font-size: initial
+}
+
+#details {
+    font-weight: 400
+}
+
+.info {
+    padding: 5% 8%
+}
+
+.info .col-5 {
+    padding: 0
+}
+
+#heading {
+    color: grey;
+    line-height: 6vh
+}
+
+#progressbar {
+    margin-bottom: 3vh;
+    overflow: hidden;
+    color: var(--icon);
+    padding-left: 0px;
+    margin-top: 3vh
+}
+
+#progressbar li {
+    list-style-type: none;
+    font-size: x-small;
+    width: 25%;
+    float: left;
+    position: relative;
+    font-weight: 400;
+    color: rgb(160, 159, 159)
+}
+
+#progressbar #step1:before {
+    content: "";
+    color: var(--icon);
+    width: 5px;
+    height: 5px;
+    margin-left: 0px !important
+}
+
+#progressbar #step2:before {
+    content: "";
+    color: #fff;
+    width: 5px;
+    height: 5px;
+    margin-left: 32%
+}
+
+#progressbar #step3:before {
+    content: "";
+    color: #fff;
+    width: 5px;
+    height: 5px;
+    margin-right: 32%
+}
+
+#progressbar #step4:before {
+    content: "";
+    color: #fff;
+    width: 5px;
+    height: 5px;
+    margin-right: 0px !important
+}
+
+#progressbar li:before {
+    line-height: 29px;
+    display: block;
+    font-size: 12px;
+    background: #ddd;
+    border-radius: 50%;
+    margin: auto;
+    z-index: -1;
+    margin-bottom: 1vh
+}
+
+#progressbar li:after {
+    content: '';
+    height: 2px;
+    background: #ddd;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    margin-bottom: 2vh;
+    top: 1px;
+    z-index: 1
+}
+
+.progress-track {
+    padding: 0 8%
+}
+
+#progressbar li:nth-child(2):after {
+    margin-right: auto
+}
+
+#progressbar li:nth-child(1):after {
+    margin: auto
+}
+
+#progressbar li:nth-child(3):after {
+    float: left;
+    width: 68%
+}
+
+#progressbar li:nth-child(4):after {
+    margin-left: auto;
+    width: 132%
+}
+
+#progressbar li.active {
+    color: black
+}
+
+#progressbar li.active:before,
+#progressbar li.active:after {
+    background: var(--primary-color)
+}
+.rightbar{
+    float: right;
+    margin-left: 82%;
+}
+.navbar{
+    border-bottom: 2px solid var(--primary-color);
+    display: flex;
+    padding: 3px 15px 2px 15px;
+    width: 100%;
+    margin-top: -1%;
+    position: fixed;
+    background-color: white;
+    z-index: 100;
+   
+}
+.navbar h1{
+    font-size: 24px;
+    margin-top: 50px;
+    font-weight: 400;
+   margin-left: -5px;
+}
+.navbar img {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+  margin: 1%;
+    object-fit: cover;
+}
+.navbar i{
+    font-size: 20px;
+    margin-top: 55px;
+    margin-left: 5px;
+}
+.rightbar h1 {
+    font-size: 28px;
+    font-weight: 300 !important;
+  
+    /* margin-left: 5px; */
+    /* padding:3px; */
+}
+.icourse{
+    background-color: white;
+    box-shadow: 2px 0 5px 5px rgb(0 0 0 / 5%);   
+}
+
+
+.crses{
+    display: flex;
+    padding: 10px;
+}
+.crses h1{
+    font-size: 16px;
+}
+.crses p{
+    font-size: 12px;
+}
+.enroll{
+    height: 1.5rem;
+    margin-top: 30%;
+    cursor: pointer;
+    background-color: var(--primary-color);
+    color: var(--seconday);
+    border: none;
+    padding: auto;
+    margin-left: 20px;
+    border-radius: 7px;
+}
